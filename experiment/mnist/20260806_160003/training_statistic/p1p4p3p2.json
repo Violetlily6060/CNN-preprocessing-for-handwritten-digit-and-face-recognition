@@ -1,0 +1,146 @@
+{
+    "pipeline_name": "p1p4p3p2",
+    "timestamp": "20260806_160003",
+    "system_info": {
+        "python_version": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+        "torch_version": "2.13.0+cu126",
+        "cuda_available": true,
+        "device_name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+        "os": "Windows"
+    },
+    "hyperparameters": {
+        "batch_size": 64,
+        "max_epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.001,
+        "dropout_rate": 0.5,
+        "optimizer": "Adam",
+        "criterion": "CrossEntropyLoss"
+    },
+    "model_metrics": {
+        "total_parameters": 525514,
+        "trainable_parameters": 525514,
+        "model_size_mb": 2.0047
+    },
+    "history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.3703,
+            "train_acc": 0.8831,
+            "val_loss": 0.1879,
+            "val_acc": 0.933,
+            "epoch_time_sec": 1.63
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.1228,
+            "train_acc": 0.9617,
+            "val_loss": 0.1457,
+            "val_acc": 0.9523,
+            "epoch_time_sec": 1.42
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.0868,
+            "train_acc": 0.9716,
+            "val_loss": 0.1889,
+            "val_acc": 0.937,
+            "epoch_time_sec": 1.4
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.0568,
+            "train_acc": 0.9811,
+            "val_loss": 0.111,
+            "val_acc": 0.9693,
+            "epoch_time_sec": 1.48
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.0455,
+            "train_acc": 0.9859,
+            "val_loss": 0.1102,
+            "val_acc": 0.9697,
+            "epoch_time_sec": 1.47
+        },
+        {
+            "epoch": 6,
+            "train_loss": 0.0345,
+            "train_acc": 0.989,
+            "val_loss": 0.127,
+            "val_acc": 0.9617,
+            "epoch_time_sec": 1.38
+        },
+        {
+            "epoch": 7,
+            "train_loss": 0.0293,
+            "train_acc": 0.9904,
+            "val_loss": 0.0992,
+            "val_acc": 0.9733,
+            "epoch_time_sec": 1.44
+        },
+        {
+            "epoch": 8,
+            "train_loss": 0.0157,
+            "train_acc": 0.9946,
+            "val_loss": 0.0634,
+            "val_acc": 0.981,
+            "epoch_time_sec": 1.43
+        },
+        {
+            "epoch": 9,
+            "train_loss": 0.0222,
+            "train_acc": 0.9927,
+            "val_loss": 0.1132,
+            "val_acc": 0.97,
+            "epoch_time_sec": 1.39
+        },
+        {
+            "epoch": 10,
+            "train_loss": 0.0283,
+            "train_acc": 0.9911,
+            "val_loss": 0.2395,
+            "val_acc": 0.94,
+            "epoch_time_sec": 1.4
+        },
+        {
+            "epoch": 11,
+            "train_loss": 0.0179,
+            "train_acc": 0.9943,
+            "val_loss": 0.0769,
+            "val_acc": 0.9807,
+            "epoch_time_sec": 1.5
+        },
+        {
+            "epoch": 12,
+            "train_loss": 0.012,
+            "train_acc": 0.9963,
+            "val_loss": 0.0805,
+            "val_acc": 0.98,
+            "epoch_time_sec": 1.5
+        },
+        {
+            "epoch": 13,
+            "train_loss": 0.0098,
+            "train_acc": 0.9965,
+            "val_loss": 0.1706,
+            "val_acc": 0.958,
+            "epoch_time_sec": 1.44
+        }
+    ],
+    "best_epoch": 8,
+    "stopped_epoch": 13,
+    "early_stopped": true,
+    "best_val_accuracy": 0.981,
+    "best_val_loss": 0.0634,
+    "final_train_accuracy": 0.9965,
+    "final_val_accuracy": 0.958,
+    "overfitting_gap": 0.0385,
+    "performance_metrics": {
+        "preload_time_sec": 20.1,
+        "total_training_time_sec": 18.94,
+        "avg_epoch_time_sec": 1.46,
+        "throughput_samples_per_sec": 9609.29,
+        "peak_gpu_memory_mb": 56.12
+    }
+}
