@@ -1,0 +1,146 @@
+{
+    "pipeline_name": "p1p2",
+    "timestamp": "20260827_003012",
+    "system_info": {
+        "python_version": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+        "torch_version": "2.13.0+cu126",
+        "cuda_available": true,
+        "device_name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+        "os": "Windows"
+    },
+    "hyperparameters": {
+        "batch_size": 64,
+        "max_epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.001,
+        "dropout_rate": 0.5,
+        "optimizer": "Adam",
+        "criterion": "CrossEntropyLoss"
+    },
+    "model_metrics": {
+        "total_parameters": 525514,
+        "trainable_parameters": 525514,
+        "model_size_mb": 2.0047
+    },
+    "history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.2925,
+            "train_acc": 0.9124,
+            "val_loss": 0.0756,
+            "val_acc": 0.9771,
+            "epoch_time_sec": 1.38
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.0712,
+            "train_acc": 0.9798,
+            "val_loss": 0.0826,
+            "val_acc": 0.9746,
+            "epoch_time_sec": 1.12
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.0492,
+            "train_acc": 0.9834,
+            "val_loss": 0.1125,
+            "val_acc": 0.9646,
+            "epoch_time_sec": 1.26
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.0394,
+            "train_acc": 0.9878,
+            "val_loss": 0.0865,
+            "val_acc": 0.9736,
+            "epoch_time_sec": 1.14
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.0313,
+            "train_acc": 0.9892,
+            "val_loss": 0.1705,
+            "val_acc": 0.9521,
+            "epoch_time_sec": 1.11
+        },
+        {
+            "epoch": 6,
+            "train_loss": 0.0327,
+            "train_acc": 0.9888,
+            "val_loss": 0.0691,
+            "val_acc": 0.98,
+            "epoch_time_sec": 1.15
+        },
+        {
+            "epoch": 7,
+            "train_loss": 0.0164,
+            "train_acc": 0.995,
+            "val_loss": 0.0615,
+            "val_acc": 0.9843,
+            "epoch_time_sec": 1.14
+        },
+        {
+            "epoch": 8,
+            "train_loss": 0.015,
+            "train_acc": 0.9955,
+            "val_loss": 0.0486,
+            "val_acc": 0.9864,
+            "epoch_time_sec": 1.23
+        },
+        {
+            "epoch": 9,
+            "train_loss": 0.0165,
+            "train_acc": 0.9946,
+            "val_loss": 0.1031,
+            "val_acc": 0.9764,
+            "epoch_time_sec": 1.15
+        },
+        {
+            "epoch": 10,
+            "train_loss": 0.0157,
+            "train_acc": 0.995,
+            "val_loss": 0.0651,
+            "val_acc": 0.985,
+            "epoch_time_sec": 1.2
+        },
+        {
+            "epoch": 11,
+            "train_loss": 0.0066,
+            "train_acc": 0.998,
+            "val_loss": 0.0666,
+            "val_acc": 0.9846,
+            "epoch_time_sec": 1.18
+        },
+        {
+            "epoch": 12,
+            "train_loss": 0.0156,
+            "train_acc": 0.9947,
+            "val_loss": 0.0884,
+            "val_acc": 0.9771,
+            "epoch_time_sec": 1.25
+        },
+        {
+            "epoch": 13,
+            "train_loss": 0.0196,
+            "train_acc": 0.9935,
+            "val_loss": 0.0673,
+            "val_acc": 0.9846,
+            "epoch_time_sec": 1.13
+        }
+    ],
+    "best_epoch": 8,
+    "stopped_epoch": 13,
+    "early_stopped": true,
+    "best_val_accuracy": 0.9864,
+    "best_val_loss": 0.0486,
+    "final_train_accuracy": 0.9935,
+    "final_val_accuracy": 0.9846,
+    "overfitting_gap": 0.0089,
+    "performance_metrics": {
+        "preload_time_sec": 6.31,
+        "total_training_time_sec": 15.46,
+        "avg_epoch_time_sec": 1.19,
+        "throughput_samples_per_sec": 9417.85,
+        "peak_gpu_memory_mb": 56.15
+    }
+}

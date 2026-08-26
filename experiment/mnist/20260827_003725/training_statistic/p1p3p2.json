@@ -1,0 +1,146 @@
+{
+    "pipeline_name": "p1p3p2",
+    "timestamp": "20260827_003725",
+    "system_info": {
+        "python_version": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+        "torch_version": "2.13.0+cu126",
+        "cuda_available": true,
+        "device_name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+        "os": "Windows"
+    },
+    "hyperparameters": {
+        "batch_size": 64,
+        "max_epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.001,
+        "dropout_rate": 0.5,
+        "optimizer": "Adam",
+        "criterion": "CrossEntropyLoss"
+    },
+    "model_metrics": {
+        "total_parameters": 525514,
+        "trainable_parameters": 525514,
+        "model_size_mb": 2.0047
+    },
+    "history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.3715,
+            "train_acc": 0.883,
+            "val_loss": 0.1492,
+            "val_acc": 0.9489,
+            "epoch_time_sec": 1.28
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.1192,
+            "train_acc": 0.9621,
+            "val_loss": 0.2273,
+            "val_acc": 0.9286,
+            "epoch_time_sec": 1.22
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.0867,
+            "train_acc": 0.9723,
+            "val_loss": 0.1271,
+            "val_acc": 0.9632,
+            "epoch_time_sec": 1.14
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.0579,
+            "train_acc": 0.9814,
+            "val_loss": 0.1175,
+            "val_acc": 0.9614,
+            "epoch_time_sec": 1.19
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.0497,
+            "train_acc": 0.9839,
+            "val_loss": 0.1108,
+            "val_acc": 0.9664,
+            "epoch_time_sec": 1.13
+        },
+        {
+            "epoch": 6,
+            "train_loss": 0.0361,
+            "train_acc": 0.9876,
+            "val_loss": 0.1192,
+            "val_acc": 0.9664,
+            "epoch_time_sec": 1.21
+        },
+        {
+            "epoch": 7,
+            "train_loss": 0.0373,
+            "train_acc": 0.9872,
+            "val_loss": 0.169,
+            "val_acc": 0.9532,
+            "epoch_time_sec": 1.26
+        },
+        {
+            "epoch": 8,
+            "train_loss": 0.0316,
+            "train_acc": 0.9905,
+            "val_loss": 0.0912,
+            "val_acc": 0.9732,
+            "epoch_time_sec": 1.2
+        },
+        {
+            "epoch": 9,
+            "train_loss": 0.0237,
+            "train_acc": 0.9917,
+            "val_loss": 0.1554,
+            "val_acc": 0.9593,
+            "epoch_time_sec": 1.15
+        },
+        {
+            "epoch": 10,
+            "train_loss": 0.02,
+            "train_acc": 0.9933,
+            "val_loss": 0.1317,
+            "val_acc": 0.9664,
+            "epoch_time_sec": 1.21
+        },
+        {
+            "epoch": 11,
+            "train_loss": 0.0215,
+            "train_acc": 0.9928,
+            "val_loss": 0.1815,
+            "val_acc": 0.9532,
+            "epoch_time_sec": 1.22
+        },
+        {
+            "epoch": 12,
+            "train_loss": 0.0092,
+            "train_acc": 0.9974,
+            "val_loss": 0.1172,
+            "val_acc": 0.97,
+            "epoch_time_sec": 1.21
+        },
+        {
+            "epoch": 13,
+            "train_loss": 0.0142,
+            "train_acc": 0.9954,
+            "val_loss": 0.1048,
+            "val_acc": 0.9746,
+            "epoch_time_sec": 1.25
+        }
+    ],
+    "best_epoch": 8,
+    "stopped_epoch": 13,
+    "early_stopped": true,
+    "best_val_accuracy": 0.9732,
+    "best_val_loss": 0.0912,
+    "final_train_accuracy": 0.9954,
+    "final_val_accuracy": 0.9746,
+    "overfitting_gap": 0.0208,
+    "performance_metrics": {
+        "preload_time_sec": 8.19,
+        "total_training_time_sec": 15.69,
+        "avg_epoch_time_sec": 1.21,
+        "throughput_samples_per_sec": 9279.8,
+        "peak_gpu_memory_mb": 56.24
+    }
+}

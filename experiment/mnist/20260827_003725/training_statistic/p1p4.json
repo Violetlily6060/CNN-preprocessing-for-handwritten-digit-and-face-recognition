@@ -1,0 +1,146 @@
+{
+    "pipeline_name": "p1p4",
+    "timestamp": "20260827_003725",
+    "system_info": {
+        "python_version": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+        "torch_version": "2.13.0+cu126",
+        "cuda_available": true,
+        "device_name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+        "os": "Windows"
+    },
+    "hyperparameters": {
+        "batch_size": 64,
+        "max_epochs": 30,
+        "patience": 5,
+        "learning_rate": 0.001,
+        "dropout_rate": 0.5,
+        "optimizer": "Adam",
+        "criterion": "CrossEntropyLoss"
+    },
+    "model_metrics": {
+        "total_parameters": 525514,
+        "trainable_parameters": 525514,
+        "model_size_mb": 2.0047
+    },
+    "history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.3196,
+            "train_acc": 0.9055,
+            "val_loss": 0.4544,
+            "val_acc": 0.8618,
+            "epoch_time_sec": 1.35
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.0913,
+            "train_acc": 0.9716,
+            "val_loss": 0.1121,
+            "val_acc": 0.9629,
+            "epoch_time_sec": 1.15
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.0559,
+            "train_acc": 0.9812,
+            "val_loss": 0.1118,
+            "val_acc": 0.9639,
+            "epoch_time_sec": 1.24
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.0394,
+            "train_acc": 0.9872,
+            "val_loss": 0.1109,
+            "val_acc": 0.9686,
+            "epoch_time_sec": 1.2
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.0316,
+            "train_acc": 0.9898,
+            "val_loss": 0.118,
+            "val_acc": 0.9643,
+            "epoch_time_sec": 1.15
+        },
+        {
+            "epoch": 6,
+            "train_loss": 0.0221,
+            "train_acc": 0.9929,
+            "val_loss": 0.1405,
+            "val_acc": 0.9611,
+            "epoch_time_sec": 1.21
+        },
+        {
+            "epoch": 7,
+            "train_loss": 0.0234,
+            "train_acc": 0.9932,
+            "val_loss": 0.1036,
+            "val_acc": 0.9725,
+            "epoch_time_sec": 1.29
+        },
+        {
+            "epoch": 8,
+            "train_loss": 0.0169,
+            "train_acc": 0.9944,
+            "val_loss": 0.0659,
+            "val_acc": 0.9836,
+            "epoch_time_sec": 1.36
+        },
+        {
+            "epoch": 9,
+            "train_loss": 0.0112,
+            "train_acc": 0.9967,
+            "val_loss": 0.1131,
+            "val_acc": 0.9725,
+            "epoch_time_sec": 1.29
+        },
+        {
+            "epoch": 10,
+            "train_loss": 0.0168,
+            "train_acc": 0.9947,
+            "val_loss": 0.1839,
+            "val_acc": 0.9554,
+            "epoch_time_sec": 1.25
+        },
+        {
+            "epoch": 11,
+            "train_loss": 0.0259,
+            "train_acc": 0.9921,
+            "val_loss": 0.1405,
+            "val_acc": 0.9654,
+            "epoch_time_sec": 1.24
+        },
+        {
+            "epoch": 12,
+            "train_loss": 0.0104,
+            "train_acc": 0.9968,
+            "val_loss": 0.0661,
+            "val_acc": 0.9825,
+            "epoch_time_sec": 1.28
+        },
+        {
+            "epoch": 13,
+            "train_loss": 0.0106,
+            "train_acc": 0.9969,
+            "val_loss": 0.1045,
+            "val_acc": 0.9757,
+            "epoch_time_sec": 1.28
+        }
+    ],
+    "best_epoch": 8,
+    "stopped_epoch": 13,
+    "early_stopped": true,
+    "best_val_accuracy": 0.9836,
+    "best_val_loss": 0.0659,
+    "final_train_accuracy": 0.9969,
+    "final_val_accuracy": 0.9757,
+    "overfitting_gap": 0.0212,
+    "performance_metrics": {
+        "preload_time_sec": 7.74,
+        "total_training_time_sec": 16.34,
+        "avg_epoch_time_sec": 1.26,
+        "throughput_samples_per_sec": 8910.65,
+        "peak_gpu_memory_mb": 56.12
+    }
+}
